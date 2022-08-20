@@ -81,4 +81,5 @@
         grip-github-password (cadr credential)))
 (setq
  projectile-project-search-path '("~/Projetos/")
+ org-hide-emphasis-markers t
  )
