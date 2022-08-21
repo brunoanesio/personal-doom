@@ -75,10 +75,6 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 
-(require 'auth-source)
-(let ((credential (auth-source-user-and-password "api.github.com")))
-  (setq grip-github-user (car credential)
-        grip-github-password (cadr credential)))
 (setq
  projectile-project-search-path '("~/Projetos/")
  org-hide-emphasis-markers t
