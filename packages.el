@@ -50,5 +50,4 @@
 ;(unpin! t)
 
 (package! catppuccin-theme)
-(package! markdown-soma)
-(package! org-super-agenda)
+(package! autothemer)
